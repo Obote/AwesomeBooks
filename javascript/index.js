@@ -70,6 +70,16 @@ document.getElementById('form').addEventListener('submit', (e) => {
   display.clearForm();
 });
 
+document.getElementById('bookList').addEventListener('click', (e) => {
+ if (e.target.classList.contains('delete-btn')) {
+      const bookElement = e.target.parentElement;
+       const title = bookElement.querySelector('div:first-child').textContent.trim();
+           const author = bookElement.querySelector('div:nth-child(2)').textContent.trim();
+              const display = new DisplayBook();
+                  display.deleteBook(title, author);
+                      bookElement.remove();
+                    }
+                  });
 
 window.addEventListener('DOMContentLoaded', () => {
   const display = new DisplayBook();
