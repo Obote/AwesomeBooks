@@ -2,8 +2,8 @@
 
 <!--
 !!! IMPORTANT !!!
-This README is an example of how you could professionally present your codebase. 
-Writing documentation is a crucial part of your work as a professional software developer and cannot be ignored. 
+This README is an example of how you could professionally present your codebase.
+Writing documentation is a crucial part of your work as a professional software developer and cannot be ignored.
 
 You should modify this file to match your project and remove sections that don't apply.
 
@@ -33,7 +33,7 @@ For more information on the importance of a professional README for your reposit
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Awesome books: plain JavaScript with objects</b></h3>
 
 </div>
 
@@ -65,11 +65,11 @@ For more information on the importance of a professional README for your reposit
 
 # 📖 [your_project_name] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> In this project, you will build a basic website that allows users to add/remove books from a list. You will achieve that by using JavaScript objects and arrays. You will also need to dynamically modify the DOM and add basic events.
 
 **[your_project__name]** is a...
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name="Javascript"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -102,9 +102,9 @@ For more information on the importance of a professional README for your reposit
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Add Book title and author]**
+- **[Store to local Storage]**
+- **[Delet seleted item]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,6 +132,8 @@ In order to run this project you need:
 
 <!--
 Example command:
+Node
+
 
 ```sh
  gem install rails
@@ -141,6 +143,8 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
+
+git clone https://github.com/Obote/AwesomeBooks.git
 
 <!--
 Example commands:
@@ -159,7 +163,7 @@ Install this project with:
 Example command:
 
 ```sh
-  cd my-project
+  git clone https://github.com/Obote/AwesomeBooks.git
   gem install
 ```
 --->
@@ -210,11 +214,11 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Obote](https://github.com/Obote/)
+- Twitter: [@Obote_denis](https://twitter.com/Obote_denis)
+- LinkedIn: [Obote-denis](https://www.linkedin.com/in/obote-denis-9859a2a3/)
 
-👤 *Joy Tari*
+👤 _Joy Tari_
 
 - GitHub: [Joy](https://github.com/JoyTaribagshaw)
 - Twitter: [Joy](https://twitter.com/JoyTariBagshaw)
