@@ -6,59 +6,58 @@
 }
 
 body {
-    width: 60%;
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    align-items: center;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  #bookList {
-    margin-top: 20px;
-  }
-  
-  .book {
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  input[type="text"] {
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 10px;
-  }
-  
-  #submit {
-    display: block;
-    width: 30%;
-    padding: 10px;
-    background-color: #4caf50;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    margin: auto;
-    border-radius: 5px;
-  }
-  
-  #submit:hover {
-    background-color: #45a049;
-  }
-  
-  button {
-    padding: 5px 10px;
-    background-color: #f44336;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #e53935;
-  }
-  
+  width: 60%;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#bookList {
+  margin-top: 20px;
+}
+
+.book {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#submit {
+  display: block;
+  width: 30%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: auto;
+  border-radius: 5px;
+}
+
+#submit:hover {
+  background-color: #45a049;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e53935;
+}
