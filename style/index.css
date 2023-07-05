@@ -1,9 +1,13 @@
 /* index.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-    width: 620px;
+    width: 60%;
     font-family: Arial, sans-serif;
-    margin: 0;
     padding: 20px;
     align-items: center;
   }
@@ -17,6 +21,8 @@ body {
   }
   
   .book {
+    display: flex;
+    justify-content: space-between;
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 10px;
@@ -30,12 +36,14 @@ body {
   
   #submit {
     display: block;
-    width: 100%;
+    width: 30%;
     padding: 10px;
     background-color: #4caf50;
     color: #fff;
     border: none;
     cursor: pointer;
+    margin: auto;
+    border-radius: 5px;
   }
   
   #submit:hover {
