@@ -12,6 +12,11 @@ body {
   align-items: center;
 }
 
+#form {
+  width: 60%;
+  margin: auto;
+}
+
 h1 {
   text-align: center;
 }
