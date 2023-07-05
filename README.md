@@ -48,16 +48,11 @@
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.w3schools.com/html/">HTML</a></li>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+    <li><a href="https://www.w3schools.com/javascript/">JavaScript</a></li>
   </ul>
 </details>
 
