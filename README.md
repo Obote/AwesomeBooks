@@ -124,7 +124,7 @@ For more information on the importance of a professional README for your reposit
 
 > Describe how a new developer could make use of your project.
 
-To get a local copy up and running, follow these steps.
+npm install -y
 
 ### Prerequisites
 
@@ -234,7 +234,6 @@ Example:
 
 - [ ] **[Modify to use clases]**
 - [ ] **[Add the UI]**
--
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,32 +254,6 @@ Feel free to check the [issues page](../../issues/).
 > Write a message to encourage readers to support your project
 
 If you like this project...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
