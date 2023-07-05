@@ -2,8 +2,8 @@
 
 <!--
 !!! IMPORTANT !!!
-This README is an example of how you could professionally present your codebase. 
-Writing documentation is a crucial part of your work as a professional software developer and cannot be ignored. 
+This README is an example of how you could professionally present your codebase.
+Writing documentation is a crucial part of your work as a professional software developer and cannot be ignored.
 
 You should modify this file to match your project and remove sections that don't apply.
 
@@ -33,7 +33,7 @@ For more information on the importance of a professional README for your reposit
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Awesome books: plain JavaScript with objects</b></h3>
 
 </div>
 
@@ -65,11 +65,11 @@ For more information on the importance of a professional README for your reposit
 
 # 📖 [your_project_name] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> In this project, you will build a basic website that allows users to add/remove books from a list. You will achieve that by using JavaScript objects and arrays. You will also need to dynamically modify the DOM and add basic events.
 
 **[your_project__name]** is a...
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name="Javascript"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -102,9 +102,9 @@ For more information on the importance of a professional README for your reposit
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Add Book title and author]**
+- **[Store to local Storage]**
+- **[Delet seleted item]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +114,7 @@ For more information on the importance of a professional README for your reposit
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://obote.github.io/AwesomeBooks/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,7 +124,7 @@ For more information on the importance of a professional README for your reposit
 
 > Describe how a new developer could make use of your project.
 
-To get a local copy up and running, follow these steps.
+npm install -y
 
 ### Prerequisites
 
@@ -132,6 +132,8 @@ In order to run this project you need:
 
 <!--
 Example command:
+Node
+
 
 ```sh
  gem install rails
@@ -141,6 +143,8 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
+
+git clone https://github.com/Obote/AwesomeBooks.git
 
 <!--
 Example commands:
@@ -159,7 +163,7 @@ Install this project with:
 Example command:
 
 ```sh
-  cd my-project
+  git clone https://github.com/Obote/AwesomeBooks.git
   gem install
 ```
 --->
@@ -208,17 +212,17 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Obote**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Obote](https://github.com/Obote/)
+- Twitter: [@Obote_denis](https://twitter.com/Obote_denis)
+- LinkedIn: [Obote-denis](https://www.linkedin.com/in/obote-denis-9859a2a3/)
 
-👤 **Author2**
+👤 _Joy Tari_
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [Joy](https://github.com/JoyTaribagshaw)
+- Twitter: [Joy](https://twitter.com/JoyTariBagshaw)
+- LinkedIn: [Joy](https://www.linkedin.com/in/joy-tari-bagshaw-b8b891236?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BlJIF9fsfQCO4UIewGNO%2B%2FQ%3D%3D)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -228,9 +232,8 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Modify to use clases]**
+- [ ] **[Add the UI]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -251,32 +254,6 @@ Feel free to check the [issues page](../../issues/).
 > Write a message to encourage readers to support your project
 
 If you like this project...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
