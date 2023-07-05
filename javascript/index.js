@@ -22,6 +22,7 @@ class BookStore {
         </div>
       `;
       this.bookListDiv.innerHTML += bookHTML;
+      this.checkForBookstoreLength();
     }
   }
 
@@ -39,6 +40,10 @@ class BookStore {
     this.bookStore.splice(index, 1);
     localStorage.setItem('bookItem', JSON.stringify(this.bookStore));
     this.displayBooks();
+    this.checkForBookstoreLength();
+  }
+  checkForBookstoreLength() {
+    return this.bookStore.length > 0 ? this.bookListDiv.classList.add('showBookListBorder') : this.bookListDiv.classList.remove('showBookListBorder');
   }
 
   // eslint-disable-next-line class-methods-use-this
