@@ -34,7 +34,6 @@ class BookStore {
     this.displayBooks();
     this.clearForm();
   }
-
 }
 
 // eslint-disable-next-line no-unused-vars
