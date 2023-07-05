@@ -10,6 +10,8 @@ body {
   font-family: Arial, sans-serif;
   padding: 20px;
   align-items: center;
+  border: 2px solid black;
+  margin: 30px auto;
 }
 
 #form {
