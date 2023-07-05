@@ -63,11 +63,10 @@ For more information on the importance of a professional README for your reposit
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [your_project_name] <a name="Awesome books: refactor to use JavaScript classes"></a>
 
-> In this project, you will build a basic website that allows users to add/remove books from a list. You will achieve that by using JavaScript objects and arrays. You will also need to dynamically modify the DOM and add basic events.
-
-**[your_project__name]** is a...
+> In this project, We have refactored the Awesome books application to use JavaScript classes
+> **[your_project__name]** is a...
 
 ## 🛠 Built With <a name="Javascript"></a>
 
