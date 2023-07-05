@@ -42,6 +42,7 @@ class BookStore {
     this.displayBooks();
     this.checkForBookstoreLength();
   }
+
   checkForBookstoreLength() {
     return this.bookStore.length > 0 ? this.bookListDiv.classList.add('showBookListBorder') : this.bookListDiv.classList.remove('showBookListBorder');
   }
