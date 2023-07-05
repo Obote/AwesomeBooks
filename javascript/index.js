@@ -34,6 +34,18 @@ class BookStore {
     this.displayBooks();
     this.clearForm();
   }
+
+  removeBook(index) {
+    this.bookStore.splice(index, 1);
+    localStorage.setItem('bookItem', JSON.stringify(this.bookStore));
+    this.displayBooks();
+  }
+
+  // eslint-disable-next-line class-methods-use-this
+  clearForm() {
+    document.getElementById('title').value = '';
+    document.getElementById('author').value = '';
+  }
 }
 
 // eslint-disable-next-line no-unused-vars
