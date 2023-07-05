@@ -12,7 +12,7 @@ function displayBooks() {
     const bookHTML = `
       <div class="book">
         <p>${book.bookTitle}</p>
-        <p>${book.bookAuther}</p>
+        <p>${book.bookAuthor}</p>
 
         <button onclick="removeBook(${i})">Remove</button>
       </div>
