@@ -18,6 +18,10 @@ h1 {
 
 #bookList {
   margin-top: 20px;
+  
+}
+
+.showBookListBorder {
   border: 1px solid black;
 }
 
