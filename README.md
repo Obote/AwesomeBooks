@@ -212,7 +212,7 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Obote**
 
 - GitHub: [@Obote](https://github.com/Obote/)
 - Twitter: [@Obote_denis](https://twitter.com/Obote_denis)
@@ -232,9 +232,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Modify to use clases]**
+- [ ] **[Add the UI]**
+-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
