@@ -63,16 +63,13 @@ For more information on the importance of a professional README for your reposit
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="Awesome books: refactor to use JavaScript classes"></a>
+# 📖 [Awesome books] <a name="Awesome books"></a>
 
-> In this project, We have refactored the Awesome books application to use JavaScript classes
-> **[your_project__name]** is a...
+> **[Awesome books]** in this project we used JavaScript classes to refactor the Awesome books application
 
 ## 🛠 Built With <a name="Javascript"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -99,8 +96,6 @@ For more information on the importance of a professional README for your reposit
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[Add Book title and author]**
 - **[Store to local Storage]**
 - **[Delet seleted item]**
@@ -111,8 +106,6 @@ For more information on the importance of a professional README for your reposit
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
 - [Live Demo Link](https://obote.github.io/AwesomeBooks/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -120,8 +113,6 @@ For more information on the importance of a professional README for your reposit
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 npm install -y
 
@@ -209,8 +200,6 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Obote**
 
 - GitHub: [@Obote](https://github.com/Obote/)
@@ -228,8 +217,6 @@ Example:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Modify to use clases]**
 - [ ] **[Add the UI]**
@@ -249,8 +236,6 @@ Feel free to check the [issues page](../../issues/).
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
 
 If you like this project...
 
