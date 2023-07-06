@@ -1,3 +1,10 @@
+const navbookList = document.querySelector('.listBook');
+const navAddBook = document.querySelector('.addBook');
+const navContact = document.querySelector('.contactNav');
+
+const joyTari = document.getElementById('contact');
+console.log(joyTari);
+
 class BookStore {
   constructor() {
     this.bookStore = JSON.parse(localStorage.getItem('bookItem')) || [];
@@ -56,3 +63,30 @@ class BookStore {
 
 // eslint-disable-next-line no-unused-vars
 const bookStore = new BookStore();
+
+// const showContact = document.getElementById('contact');
+// const showAddBook = document.querySelector('#form');
+// const showBookList = document.querySelector('');
+// console.log(showContact);
+
+navAddBook.addEventListener('click', () => {
+//   showContact.style.display = 'none';
+//   showAddBook.style.display = 'flex';
+//   showBookList.style.display = 'none';
+console.log('add book');
+});
+
+navbookList.addEventListener('click', () => {
+//   showContact.style.display = 'none';
+//   showAddBook.style.display = 'none';
+//   showBookList.style.display = 'flex';
+console.log('show books');
+});
+
+navContact.addEventListener('click', () => {
+//   showContact.style.display = 'flex';
+//   showContact.style.display = 'none';
+//   showAddBook.style.display = 'none';
+//   showBookList.style.display = 'flex';
+console.log('show contact');
+});
