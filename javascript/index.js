@@ -2,35 +2,46 @@
 // const navAddBook = document.querySelector('.addBook');
 // const navContact = document.querySelector('.contactNav');
 
-const joyTari = document.getElementById('contact');
-console.log(joyTari);
-
 const links = document.querySelectorAll('.navbar-list');
 const containers = document.querySelectorAll('.container');
+const bookHeading = document.querySelector('.book--heading');
 function hideAllContainers() {
-    containers.forEach((container) => {
-        container.style.display = 'none';
-    })
+  containers.forEach((container) => {
+    container.style.display = 'none';
+  });
+}
+function removeAllActiveLInks() {
+  links.forEach((link) => {
+    link.classList.remove('show--active--link');
+  });
 }
 
 links.forEach((link) => {
-    link.addEventListener('click', (e) => {
-        const linkClass = e.target.classList[1];
-        console.log(linkClass)
-        hideAllContainers();
-        containers.forEach((container) => {
-            if (linkClass === container.id) {
-                container.style.display = 'none';
-            } else {
-                container.style.display = 'block';
-            }
-        })
-    })
-})
+  link.addEventListener('click', (e) => {
+    const linkClass = e.currentTarget.classList[1];
+    hideAllContainers();
+    removeAllActiveLInks();
+    e.target.classList.add('show--active--link');
+    containers.forEach((container) => {
+      if (linkClass === container.id) {
+        if (container.id === 'bookList') {
+          bookHeading.style.display = 'block';
+        } else {
+          bookHeading.style.display = 'none';
+        }
+        container.style.display = 'block';
+      } else {
+        container.style.display = 'none';
+      }
+    });
+  });
+});
 window.addEventListener('DOMContentLoaded', () => {
   hideAllContainers();
+  removeAllActiveLInks();
   containers[0].style.display = 'block';
-})
+  links[0].classList.add('show--active--link');
+});
 
 class BookStore {
   constructor() {
@@ -90,30 +101,3 @@ class BookStore {
 
 // eslint-disable-next-line no-unused-vars
 const bookStore = new BookStore();
-
-// const showContact = document.getElementById('contact');
-// const showAddBook = document.querySelector('#form');
-// const showBookList = document.querySelector('');
-// console.log(showContact);
-
-// navAddBook.addEventListener('click', () => {
-//   showContact.style.display = 'none';
-//   showAddBook.style.display = 'flex';
-//   showBookList.style.display = 'none';
-// console.log('add book');
-// });
-
-// navbookList.addEventListener('click', () => {
-//   showContact.style.display = 'none';
-//   showAddBook.style.display = 'none';
-//   showBookList.style.display = 'flex';
-// console.log('show books');
-// });
-
-// navContact.addEventListener('click', () => {
-//   showContact.style.display = 'flex';
-//   showContact.style.display = 'none';
-//   showAddBook.style.display = 'none';
-//   showBookList.style.display = 'flex';
-// console.log('show contact');
-// });
