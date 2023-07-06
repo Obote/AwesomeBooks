@@ -6,12 +6,61 @@
 }
 
 body {
-  width: 60%;
   font-family: Arial, sans-serif;
-  padding: 20px;
-  align-items: center;
+ 
+}
+
+.book-section {
   border: 2px solid black;
   margin: 30px auto;
+  width: 60%;
+  padding: 20px;
+  align-items: center;
+}
+
+.nav, .foot {
+  display: flex;
+  width: 95%;
+  border: 1px solid black;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  margin-left: auto;
+}
+
+.navbar-link, .navbar-logo {
+  text-decoration: none;
+  margin-left: 10px;
+  color: black;
+}
+
+span {
+  margin-left: 10px;
+}
+
+.date {
+  text-align: end;
+  padding-right: 23px;
+}
+
+.navbar-list, .navbar-logo {
+  list-style-type: none;
+}
+
+.navbar-list {
+  justify-content: end;
+  margin-left: auto;
+}
+
+.navbar-link {
+  /* margin-left: auto; */
 }
 
 #form {
