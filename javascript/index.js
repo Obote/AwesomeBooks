@@ -1,51 +1,58 @@
-const submitButton = document.getElementById('submit');
+class BookStore {
+  constructor() {
+    this.bookStore = JSON.parse(localStorage.getItem('bookItem')) || [];
+    this.submitButton = document.getElementById('submit');
+    this.bookListDiv = document.getElementById('bookList');
 
-const bookStore = JSON.parse(localStorage.getItem('bookItem')) || [];
+    this.submitButton.addEventListener('click', this.addBook.bind(this));
+    this.displayBooks();
+  }
 
-function displayBooks() {
-  const bookListDiv = document.getElementById('bookList');
-  bookListDiv.innerHTML = '';
+  displayBooks() {
+    this.bookListDiv.innerHTML = '';
 
-  for (let i = 0; i < bookStore.length; i += 1) {
-    const book = bookStore[i];
+    for (let i = 0; i < this.bookStore.length; i += 1) {
+      const book = this.bookStore[i];
 
-    const bookHTML = `
-      <div class="book">
-        <p>${book.bookTitle}</p>
-        <p>${book.bookAuthor}</p>
+      const bookHTML = `
+        <div class="book">
+          <p>${book.bookTitle}</p>
+          <p>${book.bookAuthor}</p>
+          <button onclick="bookStore.removeBook(${i})">Remove</button>
+        </div>
+      `;
+      this.bookListDiv.innerHTML += bookHTML;
+      this.checkForBookstoreLength();
+    }
+  }
 
-        <button onclick="removeBook(${i})">Remove</button>
-      </div>
-    `;
-    bookListDiv.innerHTML += bookHTML;
+  addBook() {
+    const bookTitle = document.getElementById('title').value;
+    const bookAuthor = document.getElementById('author').value;
+    const newBook = { bookTitle, bookAuthor };
+    this.bookStore.push(newBook);
+    localStorage.setItem('bookItem', JSON.stringify(this.bookStore));
+    this.displayBooks();
+    this.clearForm();
+  }
+
+  removeBook(index) {
+    this.bookStore.splice(index, 1);
+    localStorage.setItem('bookItem', JSON.stringify(this.bookStore));
+    this.displayBooks();
+    this.checkForBookstoreLength();
+  }
+
+  checkForBookstoreLength() {
+    return this.bookStore.length > 0 ? this.bookListDiv.classList.add('showBookListBorder') : this.bookListDiv.classList.remove('showBookListBorder');
+  }
+
+  // eslint-disable-next-line class-methods-use-this
+  clearForm() {
+    document.getElementById('title').value = '';
+    document.getElementById('author').value = '';
   }
 }
 
-const addBook = (bookTitle, bookAuthor) => {
-  const newBook = { bookTitle, bookAuthor };
-  bookStore.push(newBook);
-  localStorage.setItem('bookItem', JSON.stringify(bookStore));
-  displayBooks();
-  // eslint-disable-next-line no-use-before-define
-  clearForm();
-};
-
-submitButton.addEventListener('click', () => {
-  const bookTitle = document.getElementById('title').value;
-  const bookAuthor = document.getElementById('author').value;
-  addBook(bookTitle, bookAuthor);
-});
-
 // eslint-disable-next-line no-unused-vars
-const removeBook = (index) => {
-  bookStore.splice(index, 1);
-  localStorage.setItem('bookItem', JSON.stringify(bookStore));
-  displayBooks();
-};
-
-function clearForm() {
-  document.getElementById('title').value = '';
-  document.getElementById('author').value = '';
-}
-
-displayBooks();
+const bookStore = new BookStore();
