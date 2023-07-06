@@ -7,7 +7,6 @@
 
 body {
   font-family: Arial, sans-serif;
- 
 }
 
 .book-section {
@@ -18,7 +17,8 @@ body {
   align-items: center;
 }
 
-.nav, .foot {
+.nav,
+.foot {
   display: flex;
   width: 95%;
   border: 1px solid black;
@@ -35,7 +35,8 @@ body {
   margin-left: auto;
 }
 
-.navbar-link, .navbar-logo {
+.navbar-link,
+.navbar-logo {
   text-decoration: none;
   margin-left: 10px;
   color: black;
@@ -50,7 +51,8 @@ span {
   padding-right: 23px;
 }
 
-.navbar-list, .navbar-logo {
+.navbar-list,
+.navbar-logo {
   list-style-type: none;
 }
 
