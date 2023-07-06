@@ -13,9 +13,9 @@
      <a href="#" class="navbar-logo">Awesome Books</a>
       <nav class="navbar">
         <ul class="nav-list">
-       <li class="navbar-list"> <a href="#" class="navbar-link listBook" id="listBook">List</a></li> <span> | </span>
-       <li class="navbar-list"> <a href="#" class="navbar-link addBook" id="addBook">Add new</a></li> <span> | </span>
-       <li class="navbar-list"> <a href="#" class="navbar-link contact" id="contact">Contact</a></li>
+       <li class="navbar-list bookList"> <a href="#" class="navbar-link listBook" id="listBook">List</a></li> <span> | </span>
+       <li class="navbar-list form"> <a href="#" class="navbar-link addBook" id="addBook">Add new</a></li> <span> | </span>
+       <li class="navbar-list contact"> <a href="#" class="navbar-link contact" id="contact">Contact</a></li>
       </ul>
        </nav>
       </div>
@@ -27,18 +27,18 @@
     </header>
     <div class="book-section">
     <h1>Awesome Books</h1>
-    <div id="bookList"></div>
+    <div id="bookList" class="container"></div>
 
-    <p class="add-book">Add a new book</p>
 
-    <form id="form">
+    <form id="form" class="container">
+      <p class="add-book">Add a new book</p>
       <input type="text" id="title" placeholder="Title" />
       <input type="text" id="author" placeholder="Author" />
       <button type="submit" id="submit">Submit</button> 
      </form>
     </div>
 
-    <div class="contact">
+    <div class="contact container" id="contact">
       <h3>Contact Information</h3>
       <p>Do you have any question or you just want to say "Hello"? <br> You can reach out to us!</p>
       <ul>
