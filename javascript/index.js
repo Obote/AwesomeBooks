@@ -1,9 +1,36 @@
-const navbookList = document.querySelector('.listBook');
-const navAddBook = document.querySelector('.addBook');
-const navContact = document.querySelector('.contactNav');
+// const navbookList = document.querySelector('.listBook');
+// const navAddBook = document.querySelector('.addBook');
+// const navContact = document.querySelector('.contactNav');
 
 const joyTari = document.getElementById('contact');
 console.log(joyTari);
+
+const links = document.querySelectorAll('.navbar-list');
+const containers = document.querySelectorAll('.container');
+function hideAllContainers() {
+    containers.forEach((container) => {
+        container.style.display = 'none';
+    })
+}
+
+links.forEach((link) => {
+    link.addEventListener('click', (e) => {
+        const linkClass = e.target.classList[1];
+        console.log(linkClass)
+        hideAllContainers();
+        containers.forEach((container) => {
+            if (linkClass === container.id) {
+                container.style.display = 'none';
+            } else {
+                container.style.display = 'block';
+            }
+        })
+    })
+})
+window.addEventListener('DOMContentLoaded', () => {
+  hideAllContainers();
+  containers[0].style.display = 'block';
+})
 
 class BookStore {
   constructor() {
@@ -69,24 +96,24 @@ const bookStore = new BookStore();
 // const showBookList = document.querySelector('');
 // console.log(showContact);
 
-navAddBook.addEventListener('click', () => {
+// navAddBook.addEventListener('click', () => {
 //   showContact.style.display = 'none';
 //   showAddBook.style.display = 'flex';
 //   showBookList.style.display = 'none';
-console.log('add book');
-});
+// console.log('add book');
+// });
 
-navbookList.addEventListener('click', () => {
+// navbookList.addEventListener('click', () => {
 //   showContact.style.display = 'none';
 //   showAddBook.style.display = 'none';
 //   showBookList.style.display = 'flex';
-console.log('show books');
-});
+// console.log('show books');
+// });
 
-navContact.addEventListener('click', () => {
+// navContact.addEventListener('click', () => {
 //   showContact.style.display = 'flex';
 //   showContact.style.display = 'none';
 //   showAddBook.style.display = 'none';
 //   showBookList.style.display = 'flex';
-console.log('show contact');
-});
+// console.log('show contact');
+// });
