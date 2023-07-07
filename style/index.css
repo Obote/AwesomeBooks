@@ -6,12 +6,83 @@
 }
 
 body {
-  width: 60%;
   font-family: Arial, sans-serif;
+}
+
+.book-section {
+  margin: 30px auto;
+  width: 60%;
   padding: 20px;
   align-items: center;
-  border: 2px solid black;
-  margin: 30px auto;
+}
+
+.nav,
+.foot {
+  display: flex;
+  width: 95%;
+  border: 1px solid black;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-list li {
+  cursor: pointer;
+}
+
+.nav-list li:nth-child(2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0 6px;
+}
+
+.navbar {
+  margin-left: auto;
+}
+
+.navbar-link,
+.navbar-logo {
+  text-decoration: none;
+  margin-left: 10px;
+  color: black;
+}
+
+span {
+  margin-left: 10px;
+}
+
+.date {
+  text-align: end;
+  padding-right: 23px;
+}
+
+.navbar-list,
+.navbar-logo {
+  list-style-type: none;
+}
+
+.navbar-list {
+  justify-content: end;
+  margin-left: auto;
+}
+
+#contact {
+  width: 700px;
+  margin: auto;
+}
+
+#contact h3 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#contact p {
+  padding-bottom: 20px;
 }
 
 #form {
@@ -78,4 +149,14 @@ button {
 
 button:hover {
   background-color: #e53935;
+}
+
+.show--active--link {
+  color: blue;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
