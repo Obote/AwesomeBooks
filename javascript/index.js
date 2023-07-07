@@ -94,4 +94,4 @@ class BookStore {
   }
 }
 
-bookStore = new BookStore();
+this.bookStore = new BookStore();
